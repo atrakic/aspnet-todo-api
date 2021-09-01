@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  todo:
+    image: todoapp:dev
+    build:
+      context: app
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development      
