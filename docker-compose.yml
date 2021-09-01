@@ -5,4 +5,7 @@ services:
     build:
       context: app
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development      
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 8080:8080
+        
